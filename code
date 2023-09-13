@@ -1,0 +1,303 @@
+<style type="text/css">
+ 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto|Montserrat&display=swap');
+@font-face{ font-family:'on the way'; src: url('https://dl.dropboxusercontent.com/s/i6c6sv8c88g00tn/On%20The%20Way.otf'); }
+@font-face { font-family: 'cutthecrap'; src: url('https://static.tumblr.com/ujahjev/tGWplsvls/cut_the_crap.ttf') format('truetype');}
+@font-face { font-family: 'brokenghost'; src: url('https://static.tumblr.com/ujahjev/2yeplw54n/broken_ghost.ttf') format('truetype');}
+@font-face { font-family: 'dust'; src: url('https://static.tumblr.com/ujahjev/cSLplw3ki/dust_serif.ttf') format('truetype');}
+@font-face{font-family:'inkland';src:url('https://static.tumblr.com/ujahjev/y1upmobkh/inkland.ttf');}
+ 
+body
+{overflow-x:hidden;
+background-color:#000;
+background-image:url('');
+overflow:hidden;}
+ 
+.title {
+ line-height:0.5;
+ color:#ccc;
+ letter-spacing:1;
+ font-size:60px;
+ top:-10px;
+ left: 40px;
+ position:absolute;
+ text-transform: lowercase;
+ font-family: 'cutthecrap', sans-serif;
+ text-align: right;
+ animation: horizontal-shaking 0.2s linear infinite;}
+
+@keyframes horizontal-shaking {
+ 0% { transform: translateX(0) }
+ 25% { transform: translateX(0.7px) }
+ 50% { transform: translateX(-0.7px) }
+ 75% { transform: translateX(0.7px) }
+ 100% { transform: translateX(0) }}
+
+.smtitle {
+ line-height:0.5;
+ color:#ccc;
+ letter-spacing:5;
+ font-size:20px;
+ top:30px;
+ left: 30px;
+ position:absolute;
+ text-transform: uppercase;
+ font-family: times, sans-serif;
+ text-align: right;}
+
+.bottit {
+ line-height:0.5;
+ color:#ccc;
+ letter-spacing:1;
+ font-size:60px;
+ bottom:-20px;
+ left:345px;
+ width:500px;
+ height:65px;
+ opacity:0.5;
+ position:absolute;
+ text-transform: lowercase;
+ font-family: 'cutthecrap', sans-serif;
+ text-align:left;}
+
+.toptit {
+ line-height:0.5;
+ color:#8a3e3a;
+ letter-spacing:1;
+ font-size:60px;
+ top:40px;
+ right:-160px;
+ width:300px;
+ height:65px;
+ opacity:1;
+ position:absolute;
+ font-family: 'inkland', sans-serif;
+ text-align:left;}
+ 
+b {
+ color:#ccc;
+ font-weight:1;
+ font-family: 'brokenghost', cursive;
+ font-size:20px;
+ text-transform:lowercase;}
+ 
+i {
+ color:#b36763;
+ font-family: 'dust', serif;
+ font-size:15px;
+ text-transform:lowercase;}
+ 
+a {
+ color: #a19462;
+ text-decoration: none;
+ font-style:italic;
+ text-transform:lowercase;
+ font-family: georgia, serif;
+ font-size:11px;
+ -webkit-transition: all 0.5s ease-in-out;
+ -moz-transition: all 0.5s ease-in-out;
+ -o-transition: all 0.5s ease-in-out;
+ -ms-transition: all 0.5s ease-in-out;
+ transition: all 0.5s ease-in-out;}
+ 
+a:hover {
+ color:#111112;
+ text-decoration: none;
+ -webkit-transition: all 0.5s ease-in-out;
+ -moz-transition: all 0.5s ease-in-out;
+ -o-transition: all 0.5s ease-in-out;
+ -ms-transition: all 0.5s ease-in-out;
+ transition: all 0.5s ease-in-out;}z
+
+::-webkit-scrollbar-thumb:vertical {background-color:#222; height:3px; }
+::-webkit-scrollbar { height:3px; width:4px; background-color:transparent; }
+ 
+*{cursor: url('http://media.tumblr.com/7c3edb626c8cf9435c5c0b2d6acceffd/tumblr_inline_mh67v6xNXM1rdqsqf.png'), default;}
+ 
+#bitch{position:absolute; left: 0px; top: 0px; right: 0px; bottom: 0px;}
+ 
+.main {
+ overflow:hidden;
+ position:absolute;
+ bottom:0px;
+ left:0px;
+ height:593px;
+ width:411px;
+ opacity:1;
+ background-color: transparent;
+ background-image: url('https://i.imgur.com/t8EmsHl.png');
+ background-position:center center;
+ background-attachment: absolute;
+ background-repeat: no-repeat;}
+
+.tat1 {
+ overflow:hidden;
+ position:absolute;
+ bottom:0px;
+ right:-130px;
+ height:214px;
+ width:214px;
+ opacity:1;
+ z-index:10;
+ background-color: transparent;
+ background-image: url('https://i.imgur.com/HF4K0hZ.png');
+ background-position:center center;
+ background-attachment: absolute;
+ background-repeat: no-repeat;}
+
+.tear {
+ overflow:hidden;
+ position:absolute;
+ top:206px;
+ right:90px;
+ height:60px;
+ width:350px;
+ opacity:1;
+ z-index:10;
+ background-color: transparent;
+ background-image: url('https://i.imgur.com/8H0awr4.png');
+ background-position:center center;
+ background-attachment: absolute;
+ background-repeat: no-repeat;}
+
+.tear2 {
+ overflow:hidden;
+ position:absolute;
+ bottom:184px;
+ right:90px;
+ height:60px;
+ width:350px;
+ opacity:1;
+ z-index:10;
+ background-color: transparent;
+ background-image: url('https://i.imgur.com/O9YUpia.png');
+ background-position:center center;
+ background-attachment: absolute;
+ background-repeat: no-repeat;}
+ 
+#container {
+ position:absolute;
+ left:0px;
+ bottom:0px;
+ height:593px;
+ width:800px;
+ opacity:1;
+ background-color:transparent;}
+ 
+#info {
+ background-color:transparent;
+ text-align:justify;
+ color: #cac4c3;
+ font-family: 'Inconsolata', Arial, sans-serif;
+ font-size:12px;
+ letter-spacing:1px;
+ text-transform:lowercase;
+ position: absolute;
+ width:350px;
+ height:80px;
+ left:350px;
+ top:103px;
+ line-height:18px;
+ padding:10px;
+ overflow:auto;
+ z-index:100;}
+
+#info2 {
+ background-color:transparent;
+ text-align:justify;
+ color: #cac4c3;
+ font-family: 'Inconsolata', Arial, sans-serif;
+ font-size:12px;
+ letter-spacing:1px;
+ text-transform:lowercase;
+ position: absolute;
+ width:350px;
+ height:80px;
+ left:350px;
+ bottom:240px;
+ line-height:18px;
+ padding:10px;
+ overflow:auto;
+ z-index:100;}
+
+#info3 {
+ background-color:transparent;
+ text-align:justify;
+ color: #cac4c3;
+ font-family: 'Inconsolata', Arial, sans-serif;
+ font-size:12px;
+ letter-spacing:1px;
+ text-transform:lowercase;
+ position: absolute;
+ width:350px;
+ height:80px;
+ left:350px;
+ bottom:80px;
+ line-height:18px;
+ padding:10px;
+ overflow:auto;
+ z-index:100;}
+
+#ooc {
+ background-color:transparent;
+ text-align:justify;
+ color: #cac4c3;
+ font-family: 'Inconsolata', Arial, sans-serif;
+ font-size:12px;
+ letter-spacing:1px;
+ text-transform:lowercase;
+ position: absolute;
+ width:150px;
+ height:270px;
+ right:-120px;
+ top:80px;
+ line-height:18px;
+ padding:10px;
+ overflow:auto;
+ z-index:100;}
+ 
+</style>
+ 
+<div id="bitch" oncontextmenu="return false;">
+ 
+ 
+<div id="container">
+<div class="main"></div>
+<div class="tat1"></div>
+<div class="tear"></div>
+<div class="tear2"></div>
+
+<div class="title"><span class="jittery">skin of an artist</span></div>
+<div class="smtitle">name. age. gendy. more stuff. height.</div>
+
+<div class="toptit">Rex ...</div>
+<div class="bottit">tellmewhoyouare</div>
+ 
+<div id="info">
+<i>italic words</i>
+<b>bold stuff baby</b>
+lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus 
+</div>
+
+<div id="info2">
+<i>italic words</i>
+<b>bold stuff baby</b>
+lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus 
+</div>
+
+<div id="info3">
+<i>italic words</i>
+<b>bold stuff baby</b>
+lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus lorem ipsum miley cyrus 
+</div>
+
+<div id="ooc">
+<b>001.</b> ooc rules can go here brooo. they should just space out on their
+own and look all neat and nice and shit.<br><br>
+<b>002.</b> ooc rules can go here brooo. they should just space out on their
+own and look all neat and nice and shit.<br><br>
+<b>003.</b> ooc rules can go here brooo. they should just space out on their
+own and look all neat and nice and shit.<br><br>
+</div>
+ 
+</div>
